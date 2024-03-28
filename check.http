@@ -1,0 +1,20 @@
+###
+POST http://127.0.0.1:3000/ICSspaces/api/usersAPI/createUser HTTP/1.1
+Content-Type: application/json
+
+{
+    "first_name":"JR",
+    "last_name":"Despi"
+}
+
+###
+POST http://127.0.0.1:3000/ICSspaces/api/usersAPI/createOrg HTTP/1.1
+Content-Type: application/json
+
+{
+    "first_name":"ACSS",
+    "last_name":"1234"
+}
+
+###'
+POST http://127.0.0.1:3000/ICSspaces/api/usersAPI/getAllUsers HTTP/1.1
